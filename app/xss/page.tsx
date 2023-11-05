@@ -56,12 +56,13 @@ const XssDemo = () => {
         <div className="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4 mb-6" role="alert">
         <p className="font-bold">Upute za testiranje</p>
         <p className="text-sm mt-2">
-        Kad je ranjivost uključena, bilo koji JavaScript kod koji unesete izvršit će se. 
-          Kad je isključena, uneseni tekst će se sigurno prikazati ispod.
-          <br />
-          Testni podaci: probajte upisati <code>&lt;script&gt;alert('NAPAD NA APLIKACIJU')&lt;/script&gt;</code> kad je ranjivost uključena 
-          ili <code>&lt;script&gt;window.location.href = 'http://www.fer.hr';&lt;/script&gt;</code> .
-        </p>
+  Kad je ranjivost uključena, bilo koji JavaScript kod koji unesete izvršit će se. 
+  Kad je isključena, uneseni tekst će se sigurno prikazati ispod.
+  <br />
+  Testni podaci: probajte upisati <code>&lt;script&gt;alert(&apos;NAPAD NA APLIKACIJU&apos;)&lt;/script&gt;</code> kad je ranjivost uključena 
+  ili <code>&lt;script&gt;window.location.href = &apos;http://www.fer.hr&apos;;&lt;/script&gt;</code>.
+</p>
+
       </div>
 
 

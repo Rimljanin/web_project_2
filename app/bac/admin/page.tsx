@@ -41,7 +41,7 @@ const AdminPage = () => {
       <div className="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-lg">
         <h1 className="text-3xl font-bold mb-4 text-gray-900">Privatna Stranica</h1>
         <p className="text-lg text-gray-600 mb-8">
-          Ova stranica je namijenjena isključivo korisnicima s ulogom <span className="text-indigo-600">"admin"</span>.
+          Ova stranica je namijenjena isključivo korisnicima s ulogom <span className="text-indigo-600">&quot;admin&quot;</span>.
         </p>
         <div className="bg-indigo-50 p-4 rounded-md">
           <p className="text-indigo-700 font-semibold">Dobrodošli, {username}.</p>

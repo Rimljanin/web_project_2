@@ -80,11 +80,11 @@ const IndexPage = () => {
       <div className="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4 mb-6" role="alert">
         <p className="font-bold">Upute za testiranje</p>
         <p className="text-sm mt-2">
-          Funkcionalnost se testira na sljedeći način: ako je ranjivost isključena, osoba sa 
-          ulogom "user" može pristupiti samo svojemu resursu, a osoba sa ulogom "admin" samo 
-          svojemu resursu. Ako je ranjivost uključena, korisnici s bilo kojom ulogom ili cak i bez prijave mogu pristupiti 
-          bilo kojem resursu.
-        </p>
+  Funkcionalnost se testira na sljedeći način: ako je ranjivost isključena, osoba sa 
+  ulogom &quot;user&quot; može pristupiti samo svojemu resursu, a osoba sa ulogom &quot;admin&quot; samo 
+  svojemu resursu. Ako je ranjivost uključena, korisnici s bilo kojom ulogom ili cak i bez prijave mogu pristupiti 
+  bilo kojem resursu.
+</p>
       </div>
       <button
     onClick={homeFunction}
