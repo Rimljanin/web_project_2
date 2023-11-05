@@ -52,7 +52,7 @@ const XssDemo = () => {
         <title>XSS Demo</title>
       </Head>
       <div className="container mx-auto my-8 p-4">
-        <h1 className="text-3xl font-bold mb-4">XSS Ranjivost Demo</h1>
+        <h1 className="text-3xl font-bold mb-4">XSS Ranjivost</h1>
         <div className="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4 mb-6" role="alert">
         <p className="font-bold">Upute za testiranje</p>
         <p className="text-sm mt-2">
@@ -60,7 +60,7 @@ const XssDemo = () => {
   Kad je isključena, uneseni tekst će se sigurno prikazati ispod.
   <br />
   Testni podaci: probajte upisati <code>&lt;script&gt;alert(&apos;NAPAD NA APLIKACIJU&apos;)&lt;/script&gt;</code> kad je ranjivost uključena 
-  ili <code>&lt;script&gt;window.location.href = &apos;http://www.fer.hr&apos;;&lt;/script&gt;</code>.
+  ili <code>&lt;script&gt;window.location.href = &apos;http://www.fer.hr&apos;;&lt;/script&gt;</code>
 </p>
 
       </div>
